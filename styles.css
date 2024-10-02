@@ -44,6 +44,11 @@ main{
 	grid-area:main;
 }
 
+#hh{
+	background-color:blue;
+	color:white;
+}
+
 footer{
 	grid-area:footer;
 	background-color:darkgrey;
@@ -61,4 +66,8 @@ footer{
 		grid-template-columns:1fr;
 		grid-template-rows:auto 2fr 2fr auto;
 	}
+	#hh{
+		display:none;
+	}
+}
 
